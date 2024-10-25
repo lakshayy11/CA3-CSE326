@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.title h1 {
+    color: white;
+    margin: 0;
+    font-size: 90px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #07103d;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    font-family: Arial, sans-serif;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    }
+
+
+
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.hero {
+    background-size: cover;
+    background-position: center;
+    padding: 150px 20px;
+    color: rgb(0, 12, 102);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: #ffcc00;
+    color: #00264d;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Featured Products */
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.featured-products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin-top: 15px;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.product button {
+    background-color: #00264d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #ffcc00;
+    color: #00264d;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    width: 70%;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #00264d;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    background-color: #004080;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #ffcc00;
+}
+
+/* Footer */
+footer {
+    background-color: #00264d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
